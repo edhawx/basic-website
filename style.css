@@ -1,0 +1,154 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; 
+        font-family: 'Courier New', Courier, 'Monospace';
+    }
+
+    body {
+        background-color: bisque;
+        margin: 2rem 4rem;
+        color: black;
+        font-size: 1.5rem;
+    }
+
+
+
+    h1 {
+        margin-bottom: 2rem;
+        margin-left: 3rem;
+    }
+
+    h2 {
+        margin: 1rem;
+        text-decoration: underline;
+    }
+
+    h3 {
+        margin: 1rem;
+    }
+
+    p {
+        margin: 1rem;
+        color: darkgreen;
+    }
+
+    .profile-text {
+        color: darkred;
+    }
+
+    #profile-main {
+        font-weight: 600;
+    }
+
+    ol, ul {
+        padding-left: 100px;
+    }
+
+    ol > li {
+        color: red;
+    }
+
+    ul > li {
+        color: olive;
+    }
+
+    a {
+        color: black;
+        font-size: 1rem;
+        text-decoration: none;
+        margin-left: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    a:hover {
+        color: red;
+    }
+
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-bottom: 2rem;
+    }
+
+    .grid-item {
+        border: 1px solid black;
+    }
+
+    .guts-image-container {
+        text-align: center;
+        margin: 3rem;
+    }
+
+    .first-article {
+        background-image: url("article-bg.png");
+    }
+
+
+
+
+
+
+
+
+@media (min-width: 600px) {    
+
+    img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 5px solid #555;
+    }
+
+    .container1 {
+        max-width: 80vh; 
+        margin: 100px auto; 
+        padding: 0 20px; 
+        font-size: 1rem; 
+    }
+
+    .small-screen {
+        display: none;
+    }
+
+    .large-screen {
+        display: inline-block;
+    }
+
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 1px solid #555;
+    }
+
+    .container1 {
+        font-size: 0.8rem; 
+    }
+
+    footer a {
+        /* display: block; */
+        margin-bottom: 10px;
+        text-align:center;
+    }
+
+    .small-screen {
+        display: block;
+    }
+
+    .large-screen {
+        display: none;
+    }
+
+
+}
